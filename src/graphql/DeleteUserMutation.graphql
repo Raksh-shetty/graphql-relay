@@ -1,0 +1,7 @@
+mutation DeleteUserMutation($id: ID!) {
+  delete_example_user(input: { id: $id }) {
+    deletedUser {
+      id
+    }
+  }
+}
